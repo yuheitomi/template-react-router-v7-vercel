@@ -1,6 +1,6 @@
 import { userContext } from "~/lib/context";
 
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/index";
 
 export function meta() {
   return [
