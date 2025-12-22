@@ -25,6 +25,8 @@ Select your preferred options when prompted (style, color, CSS variables, etc.).
 
 ### 2. Install Base UI
 
+Install the Base UI package. Ensure to use `@base-ui/react`.
+
 ```bash
 pnpm add @base-ui/react
 ```
@@ -46,11 +48,13 @@ Modify `components.json` to reflect the Base UI approach:
 ```json
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "base-{vega|nova|maja|lyra|mira}",
+  "style": "base-{vega|nova|maia|lyra|mira}",
   // ...
   "iconLibrary": "lucide"
 }
 ```
+
+Ask the user which style to pick from the available Base UI styles.
 
 ## Notes
 
